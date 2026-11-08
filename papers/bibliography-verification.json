@@ -1,0 +1,181 @@
+{
+  "Beauville": {
+    "doi": "10.1017/CBO9780511623936",
+    "title": [
+      "Complex Algebraic Surfaces"
+    ],
+    "authors": [
+      {
+        "given": "Arnaud",
+        "family": "Beauville",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          6,
+          28
+        ]
+      ]
+    },
+    "container": [],
+    "volume": null,
+    "page": null,
+    "publisher": "Cambridge University Press",
+    "URL": "https://doi.org/10.1017/cbo9780511623936",
+    "verified_at": "2026-11-08"
+  },
+  "Huybrechts": {
+    "doi": "10.1017/CBO9781316594193",
+    "title": [
+      "Lectures on K3 Surfaces"
+    ],
+    "authors": [
+      {
+        "given": "Daniel",
+        "family": "Huybrechts",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          26
+        ]
+      ]
+    },
+    "container": [],
+    "volume": null,
+    "page": null,
+    "publisher": "Cambridge University Press",
+    "URL": "https://doi.org/10.1017/cbo9781316594193",
+    "verified_at": "2026-11-08"
+  },
+  "vGS": {
+    "doi": "10.1007/s00209-006-0047-6",
+    "title": [
+      "Nikulin involutions on K3 surfaces"
+    ],
+    "authors": [
+      {
+        "given": "Bert",
+        "family": "van Geemen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alessandra",
+        "family": "Sarti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          11,
+          4
+        ]
+      ]
+    },
+    "container": [
+      "Mathematische Zeitschrift"
+    ],
+    "volume": "255",
+    "page": "731-753",
+    "publisher": "Springer Science and Business Media LLC",
+    "URL": "https://doi.org/10.1007/s00209-006-0047-6",
+    "verified_at": "2026-11-08"
+  },
+  "K3Previous": {
+    "doi": "10.20944/preprints202602.0098.v1",
+    "title": [
+      "Enriques and Kummer Surfaces Arising from K3 Involutions"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0466-750X",
+        "authenticated-orcid": false,
+        "given": "Deep",
+        "family": "Bhattacharjee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Pallab",
+        "family": "Nandi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          3
+        ]
+      ]
+    },
+    "container": [],
+    "volume": null,
+    "page": null,
+    "publisher": "MDPI AG",
+    "URL": "https://doi.org/10.20944/preprints202602.0098.v1",
+    "verified_at": "2026-11-08"
+  },
+  "Ohashi": {
+    "title": "On the Number of Enriques Quotients of a K3 Surface",
+    "author": "Hisanori Ohashi",
+    "year": 2007,
+    "journal": "Publications of RIMS",
+    "volume": 43,
+    "pages": "181–200",
+    "primary": "https://www.kurims.kyoto-u.ac.jp/~prims/pdf/43-1/43-1-10.pdf",
+    "verified_at": "2026-11-08",
+    "doi": "not supplied; no guessed DOI"
+  }
+}

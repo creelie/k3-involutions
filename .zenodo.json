@@ -1,0 +1,32 @@
+{
+  "title": "Explicit Involution Geometry of Product Kummer Surfaces",
+  "description": "<p>Revised review with full fixed-locus and cohomology calculations for the standard affine two-torsion subgroup of a product Kummer surface. Classical Lieberman constructions are credited; this is not a classification of all K3 or Enriques involutions.</p><p>We classify the 31 nonidentity involutions in the standard affine two-torsion subgroup of a product Kummer surface. We compute their fixed loci, quotient surfaces and rational cohomology representations, including the fixed loci of all fifteen translations descending to each of the nine Lieberman quotients.</p>",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "affiliation": "Electro-Gravitational Space Propulsion Laboratory (EGSPL), India",
+      "orcid": "0000-0003-0466-750X"
+    },
+    {
+      "name": "Nandi, Pallab",
+      "affiliation": "Former student, Indian Institute of Science Education and Research Kolkata, India"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "2.0.0",
+  "keywords": [
+    "K3 surfaces",
+    "Kummer surfaces",
+    "Enriques surfaces",
+    "involutions"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.preprints.org/manuscript/202602.0098/v1",
+      "relation": "isNewVersionOf",
+      "scheme": "url"
+    }
+  ]
+}
