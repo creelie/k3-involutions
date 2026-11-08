@@ -15,7 +15,7 @@
     }
   ],
   "license": "cc-by-4.0",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "keywords": [
     "K3 surfaces",
     "Kummer surfaces",
@@ -26,6 +26,11 @@
     {
       "identifier": "https://www.preprints.org/manuscript/202602.0098/v1",
       "relation": "isNewVersionOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/creelie/k3-involutions",
+      "relation": "isSupplementTo",
       "scheme": "url"
     }
   ]
