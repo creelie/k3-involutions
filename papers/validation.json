@@ -1,9 +1,9 @@
 {
   "title": "Explicit Involution Geometry of Product Kummer Surfaces",
   "version": "2.0.0",
-  "pages": 11,
-  "pdf_sha256": "60400958392f0a46404025193ca714f1ee70b03b30944bb91d6f1bc827f83f7a",
-  "texzip_sha256": "a9b3a5a38dc49df9eb5c4278a102034e0db1cbb0032db19ab6b176b6bdd26767",
+  "pages": 12,
+  "pdf_sha256": "8adbf2edd0ee644b25ebfee1fce5b05f6ec87b348ddbb00a3fd10b2f8cd1bff1",
+  "texzip_sha256": "c14bbb2fc71f3478c155c2ae95d2d1d3fc9c553c71ede93269efd95eb7c291a9",
   "conceptdoi": null,
   "compile_warnings": []
 }

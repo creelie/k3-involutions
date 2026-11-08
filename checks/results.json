@@ -207,6 +207,38 @@
       ]
     }
   ],
+  "translation_subgroups": [
+    {
+      "order": 1,
+      "subgroups": 1,
+      "quotient_nodes": 0,
+      "quotient_Euler": 24
+    },
+    {
+      "order": 2,
+      "subgroups": 15,
+      "quotient_nodes": 8,
+      "quotient_Euler": 16
+    },
+    {
+      "order": 4,
+      "subgroups": 35,
+      "quotient_nodes": 12,
+      "quotient_Euler": 12
+    },
+    {
+      "order": 8,
+      "subgroups": 15,
+      "quotient_nodes": 14,
+      "quotient_Euler": 10
+    },
+    {
+      "order": 16,
+      "subgroups": 1,
+      "quotient_nodes": 15,
+      "quotient_Euler": 9
+    }
+  ],
   "Fermat_fixed_points": 8,
   "scope": "Checks finite labels and characters. The geometric proof is in main.tex. No Lean formalization or novelty certification."
 }

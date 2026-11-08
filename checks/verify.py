@@ -36,6 +36,21 @@ for d in range(16):
         multiplicities[f'{d:04b}:{s}']=mult
 assert sum(multiplicities.values())==22
 
+subgroups={frozenset([0])}
+frontier=list(subgroups)
+while frontier:
+    H=frontier.pop()
+    for c in range(16):
+        K=frozenset(set(H)|{x^c for x in H})
+        if K not in subgroups: subgroups.add(K); frontier.append(K)
+assert Counter(map(len,subgroups))=={1:1,2:15,4:35,8:15,16:1}
+subgroup_counts=[]
+for h,count in sorted(Counter(map(len,subgroups)).items()):
+    nodes=16-16//h
+    quotient_euler=(24+8*(h-1))//h
+    assert quotient_euler+nodes==24
+    subgroup_counts.append({'order':h,'subgroups':count,'quotient_nodes':nodes,'quotient_Euler':quotient_euler})
+
 descents=[]
 for c0 in range(16):
     a,b=pair(c0)
@@ -68,7 +83,8 @@ assert [a-b for a,b in zip(f,product)]==[1,0,0,0,0]
 result={'status':'passed','arithmetic':'integers and finite bit operations',
  'group_order':32,'nonidentity_fixed_locus_counts':dict(counts),
  'H2_character_multiplicities':multiplicities,'Enriques_descents':descents,
+ 'translation_subgroups':subgroup_counts,
  'Fermat_fixed_points':8,
  'scope':'Checks finite labels and characters. The geometric proof is in main.tex. No Lean formalization or novelty certification.'}
 (ROOT/'results.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
-print(json.dumps({'status':'passed','group_order':32,'descents':len(descents),'Fermat_fixed_points':8}))
+print(json.dumps({'status':'passed','group_order':32,'translation_subgroups':len(subgroups),'descents':len(descents),'Fermat_fixed_points':8}))

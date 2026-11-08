@@ -6,7 +6,7 @@ We classify the 31 nonidentity involutions in the standard affine two-torsion su
 
 ## Current files
 
-- `papers/product-kummer-involutions.pdf` (11 pages).
+- `papers/product-kummer-involutions.pdf` (12 pages).
 - `papers/product-kummer-involutions-tex.zip` (compile `main.tex` with pdfLaTeX).
 - `papers/submission-details.md` and `papers/resubmission-notes.md`.
 - `papers/aiprovenance.md` and checked bibliography records.
